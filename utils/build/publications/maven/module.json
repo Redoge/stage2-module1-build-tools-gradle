@@ -1,0 +1,69 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example",
+    "module": "utils",
+    "version": "1.3.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "utils-1.3.5.jar",
+          "url": "utils-1.3.5.jar",
+          "size": 1165,
+          "sha512": "0d29b3d90628f87e4fc20b6a40bbea07d109e65764cd5f95fbf68eae453d55f9fdda975c66d5136bae2e0b383813669ea9dd3b7786f57485fd127d71fd0d001f",
+          "sha256": "a7b799873ad3071882e01261ec4d68ddc8056cf4c4340886bf6e7aa2aafb436e",
+          "sha1": "2a621070aba2bc813c95c8f929686de0d3495ae7",
+          "md5": "a9f58d0b528d586e27a730a70ed7d2ce"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "utils-1.3.5.jar",
+          "url": "utils-1.3.5.jar",
+          "size": 1165,
+          "sha512": "0d29b3d90628f87e4fc20b6a40bbea07d109e65764cd5f95fbf68eae453d55f9fdda975c66d5136bae2e0b383813669ea9dd3b7786f57485fd127d71fd0d001f",
+          "sha256": "a7b799873ad3071882e01261ec4d68ddc8056cf4c4340886bf6e7aa2aafb436e",
+          "sha1": "2a621070aba2bc813c95c8f929686de0d3495ae7",
+          "md5": "a9f58d0b528d586e27a730a70ed7d2ce"
+        }
+      ]
+    }
+  ]
+}
